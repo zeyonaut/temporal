@@ -1,0 +1,7 @@
+(executable
+ (public_name temporal)
+ (name main))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
